@@ -27,3 +27,5 @@ An open source library that integrates various point cloud registration algorith
 
 ## Personal contact information
 This is my personal WeChat contact information. At the same time, this is also the fastest way to communicate with me.
+
+![personal WeChat](https://github.com/TechFlowAI/pcr/blob/main/doc/image/personal%20WeChat.jpg)
