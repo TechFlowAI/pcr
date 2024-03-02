@@ -7,6 +7,29 @@ An open source library that integrates various point cloud registration algorith
 - [ ] NDT
 - [ ] Ground Extraction
 
+## Attention
+**This project was developed by me during my spare time outside of work. Therefore, due to time constraints, there may be some shortcomings. I apologize for any inconvenience and appreciate your understanding.**
+
+## How to Build
+```shell script
+git clone https://github.com/TechFlowAI/pcr.git
+cd pcr
+mkdir build
+cd build
+cmake ..
+make -j
+```
+## Download Data
+Place the downloaded pcd files in the /data folder:
+[registration_data](https://drive.google.com/drive/folders/1rq3kt2dse8UUqd_PLeTH8rQL9Dk3e8Te?usp=drive_link)
+
+## Run Example
+Once the code is successfully compiled, you can run the following code
+```shell script
+cd bin
+./run_fpfh
+```
+
 ## Free Course Links
 
 - 点云配准第一讲：点云配准初识 https://www.bilibili.com/video/BV1NB4y1d7px/?spm_id_from=333.788&vd_source=af3f3d6d96e7e41b0f57b586f5fbdcc2
@@ -46,5 +69,8 @@ This is my personal WeChat contact information. At the same time, this is also t
 
 ![personal WeChat](https://github.com/TechFlowAI/pcr/blob/main/doc/image/personal%20WeChat.jpg)
 
-## THANKS
+## Thanks
+### Code
   - [TEASER-plusplus](https://github.com/MIT-SPARK/TEASER-plusplus)
+### Dataset
+  - [WHU-TLS BENCHMARK](https://3s.whu.edu.cn/ybs/en/benchmark.htm)
